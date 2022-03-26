@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="sergey, cv, resume">
+  <meta name="description" content="Это сайт - резюме Сергея Игнатова">
+  <link rel="stylesheet" href="style.css">
+  <title>Resume</title>
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <img src="image/avatar.png" alt="Мое фото" class="avatar">
+      <div class="info-text">
+        <h1>Сергей Игнатов</h1>
+        <p>Начинающий <strong>frontend-разработчик</strong></p>
+        <p>Обучался и успешно закончил <strong>Яндекс.Практикум</strong></p>
+        <p>Увлекаюсь <em>чтением, сериалами, путешествиями и музыкой</em></p>
+
+        <h4>Список социальных сетей:</h4>
+        <a href="https://t.me/serg_vale" target="_blank">Telegram</a> |
+        <a href="https://vk.com/serg_vale" target="_blank">Vk</a> |
+        <a href="https://www.instagram.com/serg_vale/" target="_blank">Instagram</a>
+      </div>
+    </div>
+
+    <div class="card bg-green">
+      <h2>Мои хобби:</h2>
+      <ol class="list">
+        <li>Прогулки</li>
+        <li>Сноуборд</li>
+        <li>Игра на гитаре</li>
+        <li>Вокал</li>
+        <li>Поход в кино</li>
+      </ol>
+    </div>
+
+    <div class="card bg-red">
+      <h2>Опыт работы:</h2>
+      <table class="table">
+        <!-- <thead>
+          <tr>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr>
+            <td>ГКУ "ПСЦ"</td>
+            <td>Пожарный, заместитель начальника ПСО, главный специалист, оперативный дежурный</td>
+            <td>2011 - н.в.</td>
+          </tr>
+          <tr>
+            <td>Яндекс.Пратикум</td>
+            <td>Обучался JavaScript</td>
+            <td>2021-2022</td>
+          </tr>
+          <tr>
+            <td>Фриланс</td>
+            <td>Frontend-разработчик</td>
+            <td>2022 - н.в.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card bg-yellow">
+      <h2>Мои проекты:</h2>
+      <ul class="link-list">
+        <li><a href="#">GitHub Repo</a></li>
+      </ul>
+    </div>
+
+    <form action="/" class="form">
+      <h2>Связаться со мной</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea type="email" id="message" placeholder="Введите сообщение..." cols="20" rows="5"></textarea>
+      </div>
+      <button type="submit" class="btn">Отправить!</button>
+    </form>
+  </div>
+</body>
+</html>
